@@ -3,7 +3,7 @@ Server setup scripts
 ---------
 Version: 0.0.0.1
 
-This is a collection of small shell scripts to assist in setups with Ubuntu OS Servers to specifically assist in the setup of Chaincoin VPS servers and Masternodes
+This is a collection of small shell scripts to assist in setups with Ubuntu OS Servers to specifically assist in the setup of Chaincoin VPS servers and Masternode Setup
 
 Experimental scripts, use at your own risk!!!
 
@@ -17,8 +17,28 @@ Tested Systems:
 ---------------
 -Ubuntu 16.04
 
+Setup 1 Gig temporary Swap file
 --------------
-Setup 2 Gig Permanet Swap file
+Description: Creates a 1GB temporary swap file on an Ubuntu OS
+
+Usage:
+
+On a brand new VPS server copy and paste the following line and press ENTER:
+
+curl https://raw.githubusercontent.com/seekthex/Server_Setup_Scripts/master/install-1-swap.sh | bash
+
+Setup 2 Gig temporary Swap file
+--------------
+Description: Creates a 2GB temporary swap file on an Ubuntu OS
+
+Usage:
+
+On a brand new VPS server copy and paste the following line and press ENTER:
+
+curl https://raw.githubusercontent.com/seekthex/Server_Setup_Scripts/master/install-2-swap.sh | bash
+
+--------------
+Setup 1 Gig Permanent Swap file
 --------------
 Description: Creates a 2GB permanent swap file on an Ubuntu OS and edits the /etc/fstab to make the swapfile permanent on reboot
 
@@ -26,7 +46,18 @@ Usage:
 
 On a brand new VPS server copy and paste the following line and press ENTER:
 
-curl https://raw.githubusercontent.com/seekthex/Server_Setup_Scripts/master/install-swap.sh | bash
+curl https://raw.githubusercontent.com/seekthex/Server_Setup_Scripts/master/install-1-swap-p.sh | bash
+
+--------------
+Setup 2 Gig Permanent Swap file
+--------------
+Description: Creates a 2GB permanent swap file on an Ubuntu OS and edits the /etc/fstab to make the swapfile permanent on reboot
+
+Usage:
+
+On a brand new VPS server copy and paste the following line and press ENTER:
+
+curl https://raw.githubusercontent.com/seekthex/Server_Setup_Scripts/master/install-2-swap-p.sh | bash
 
 --------------
 Setup CHC Firewall
