@@ -1,8 +1,7 @@
 #!/bin/sh
 #Version 0.0.0.1
 #Info: Installs 2GB swaw file
-#Testing OS: Ubuntu 16.04
-#TODO: Test this on a server
+#Tested OS: Clean Install of Ubuntu 16.04
 #TODO: Check this code on other version of Ubuntu
 
 
@@ -24,8 +23,6 @@ createswap() {
 	sudo echo "/swapfile none swap sw 0 0" >> /etc/fstab
   message "2GB swap has been created and the /etc/fstab has been edited"
 }
-
-
 
 install() {
 	createswap
