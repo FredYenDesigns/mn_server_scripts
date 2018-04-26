@@ -1,7 +1,7 @@
 #!/bin/sh
 #Version 0.0.0.1
 #Info: Installs 2GB swap file
-#Tested OS: Clean Install of Ubuntu 16.04
+#Tested OS: Clean Install of Ubuntu 16.04 (fail)
 #TODO: Check this code on other version of Ubuntu
 
 

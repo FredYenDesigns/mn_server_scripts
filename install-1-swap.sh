@@ -1,7 +1,7 @@
 #!/bin/sh
 #Version 0.0.0.1
-#Info: Installs 1GB swap file
-#Tested OS: Clean Install of Ubuntu 16.04
+#Info: Installs temporary 1GB swap file
+#Tested OS: Clean Install of Ubuntu 16.04 (pass)
 #TODO: Check this code on other version of Ubuntu
 
 
@@ -20,8 +20,7 @@ createswap() {
 	sudo swapon /swapfile
 	sudo chmod 0600 /swapfile
 	sudo chown root:root /swapfile
-	sudo echo "/swapfile none swap sw 0 0" >> /etc/fstab
-  message "1GB swap has been created"
+	message "1GB swap has been created"
 }
 
 install() {
