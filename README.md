@@ -17,9 +17,9 @@ Tested Systems:
 ---------------
 -Ubuntu 16.04
 
-Setup 1 Gig temporary Swap file
+Setup 1 Gigabyte temporary Swap file
 --------------
-Description: Creates a 1GB temporary swap file on an Ubuntu OS
+Description: Creates a 1 GB temporary swap file on an Ubuntu OS
 
 Usage:
 
@@ -27,9 +27,10 @@ On a brand new VPS server copy and paste the following line and press ENTER:
 
 curl https://raw.githubusercontent.com/seekthex/Server_Setup_Scripts/master/install-1-swap.sh | bash
 
-Setup 2 Gig temporary Swap file
 --------------
-Description: Creates a 2GB temporary swap file on an Ubuntu OS
+Setup 2 Gigabyte temporary Swap file
+--------------
+Description: Creates a 2 GB temporary swap file on an Ubuntu OS
 
 Usage:
 
@@ -38,9 +39,9 @@ On a brand new VPS server copy and paste the following line and press ENTER:
 curl https://raw.githubusercontent.com/seekthex/Server_Setup_Scripts/master/install-2-swap.sh | bash
 
 --------------
-Setup 1 Gig Permanent Swap file
+Setup 1 Gigabyte Permanent Swap file
 --------------
-Description: Creates a 2GB permanent swap file on an Ubuntu OS and edits the /etc/fstab to make the swapfile permanent on reboot
+Description: Creates a 1 GB permanent swap file on an Ubuntu OS and edits the /etc/fstab to make the swapfile permanent on reboot
 
 Usage:
 
@@ -49,9 +50,9 @@ On a brand new VPS server copy and paste the following line and press ENTER:
 curl https://raw.githubusercontent.com/seekthex/Server_Setup_Scripts/master/install-1-swap-p.sh | bash
 
 --------------
-Setup 2 Gig Permanent Swap file
+Setup 2 Gigabyte Permanent Swap file
 --------------
-Description: Creates a 2GB permanent swap file on an Ubuntu OS and edits the /etc/fstab to make the swapfile permanent on reboot
+Description: Creates a 2 GB permanent swap file on an Ubuntu OS and edits the /etc/fstab to make the swapfile permanent on reboot
 
 Usage:
 

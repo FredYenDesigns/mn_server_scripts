@@ -20,8 +20,7 @@ createswap() {
 	sudo swapon /swapfile
 	sudo chmod 0600 /swapfile
 	sudo chown root:root /swapfile
-	sudo echo "/swapfile none swap sw 0 0" >> /etc/fstab
-  message "2GB swap has been created"
+	message "2GB swap has been created"
 }
 
 install() {
