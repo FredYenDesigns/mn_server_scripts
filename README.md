@@ -7,7 +7,7 @@ https://github.com/seekthex/2GigPermSwap.git
 2GigPermSwap
 Version: 0.0.0.1 Script for installing 2GB permanent swap file
 
-#todo learn how to make the script executable damn it all to to hell
+#todo learn how to make the script executable damn it all to hell
 #todo I really need to get a BTC donation address :facepalm:
 
 Experimental script, use at your own risk!!!
