@@ -1,4 +1,3 @@
-test
 #!/bin/sh
 #Version 0.0.0.1
 #Info: Installs 2GB swap file
