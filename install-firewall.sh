@@ -28,5 +28,4 @@ install() {
 }
 
 #main
-#default to --without-gui
 install
