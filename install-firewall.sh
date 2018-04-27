@@ -19,7 +19,7 @@ createfirewall() {
   sudo ufw allow 21994
   sudo ufw default deny incoming
   sudo ufw default allow outgoing
-  sudo ufw enable
+  sudo ufw enable -y
   message "The Firewall settings have been modified to open ports 11994 and 21994"
 }
 
