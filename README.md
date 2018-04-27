@@ -17,6 +17,7 @@ Tested Systems:
 ---------------
 -Ubuntu 16.04
 
+--------------
 Setup 1 Gigabyte temporary Swap file
 --------------
 Description: Creates a 1 GB temporary swap file on an Ubuntu OS
