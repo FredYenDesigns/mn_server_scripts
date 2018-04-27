@@ -1,6 +1,6 @@
 #!/bin/sh
 #Version 0.0.0.1
-#Info: Installs 2GB swap file
+#Info: Installs firewall for CHC
 #Tested OS: Clean Install of Ubuntu 16.04 (pass)
 #TODO: Check this code on other version of Ubuntu
 
