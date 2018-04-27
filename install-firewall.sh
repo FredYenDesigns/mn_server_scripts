@@ -13,13 +13,13 @@ message() {
 
 createfirewall() {
 	message "Setting up firewall ports for CHC..."
-	sudo ufw allow OpenSSH -y
-	sudo ufw allow 8333 -y
-	sudo ufw allow 11994 -y
-	sudo ufw allow 21994 -y
-	sudo ufw default deny incoming -y
-	sudo ufw default allow outgoing -y
-	sudo ufw enable -y
+	sudo ufw allow OpenSSH 
+	sudo ufw allow 8333 
+	sudo ufw allow 11994
+	sudo ufw allow 21994
+	sudo ufw default deny incoming
+	sudo ufw default allow outgoing
+	sudo ufw enable
   message "The Firewall settings have been modified to open ports 11994 and 21994"
 }
 
