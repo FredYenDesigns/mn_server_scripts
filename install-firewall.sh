@@ -20,7 +20,7 @@ createfirewall() {
 	sudo ufw default deny incoming
 	sudo ufw default allow outgoing
 	sudo ufw --force enable
-  message "The Firewall settings have been modified to open ports 11994 and 21994"
+  message "The Firewall settings have been modified to open ports 8333,11994 and 21994"
 }
 
 install() {
