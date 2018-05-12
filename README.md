@@ -15,6 +15,7 @@ Supported OS
 ---------------
 Tested Systems:
 ---------------
+-Ubuntu 14.04
 -Ubuntu 16.04
 
 --------------
