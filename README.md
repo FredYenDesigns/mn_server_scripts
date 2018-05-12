@@ -15,8 +15,8 @@ Supported OS
 ---------------
 Tested Systems:
 ---------------
--Ubuntu 14.04
--Ubuntu 16.04
+Ubuntu 14.04
+Ubuntu 16.04
 
 --------------
 Setup 1 Gigabyte temporary Swap file
