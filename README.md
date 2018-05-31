@@ -21,7 +21,7 @@ Tested Systems:
 --------------
 Setup 1 Gigabyte temporary Swap file
 --------------
-Description: Creates a 1 GB temporary swap file on an Ubuntu OS
+ Description: Creates a 1 GB temporary swap file on an Ubuntu OS
 
 Usage:
 
@@ -79,6 +79,6 @@ Donations:
 
 Bitcoin:
 
-Chaincoin:
+Chaincoin: CYFSSCHNtLj1pDhPEWK9KP5gnHQqohNEfh
 
 Many thanks to the CHC Community
